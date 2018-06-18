@@ -35,6 +35,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Easy file attachment management for ActiveRecord
+gem "paperclip", "~> 5.0.0"
 
 gem 'bootstrap', '~> 4.1.1'
 
