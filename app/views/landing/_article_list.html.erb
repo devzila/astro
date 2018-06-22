@@ -1,0 +1,10 @@
+<div style="padding-left: 20px; padding-top: 20px;">
+  <% @articles.each do |article| %>
+    <article>
+      <div class="post-content">
+        <h1><%=article.title%></h1>
+        <p><%=article.content%></p>
+      </div>
+    </article>
+  <%end%>
+</div>

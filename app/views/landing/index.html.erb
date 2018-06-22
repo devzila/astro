@@ -1,7 +1,15 @@
-<p>Landing Page</p>
-<% @articles.each do |article| %>
-	<h1><%=article.title%></h1>
-	<p><%=article.content%></p>
-	<hr/>
+<div class="row">
+  <div class="col-md-12">
+    <div class="row">
 
-<%end%>
+      <div class="col-md-8">
+        <%= render partial: "landing/article_list" %>
+      </div>
+
+      <div class="col-md-4">
+
+      </div>
+
+    </div>
+  </div>
+</div>
