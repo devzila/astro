@@ -3,7 +3,8 @@
     <article>
       <div class="post-content">
         <h1><%=article.title%></h1>
-        <p><%=article.content%></p>
+        <p><%=article.excerpt%></p>
+        <p align="right"><a href="/articles/<%=article.slug%>">View More</a></p>
       </div>
     </article>
   <%end%>
